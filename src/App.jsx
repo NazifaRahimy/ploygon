@@ -1,10 +1,10 @@
-
+import Navbar from "./comm/NavBar"
 function App() {
 
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    < div className="bg-[#090218]">
+    < Navbar />
+    </div>
   )
 }
 
