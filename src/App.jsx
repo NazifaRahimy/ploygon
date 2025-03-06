@@ -4,7 +4,7 @@ import Home from "./comm/Home"
 
 function App() {
   return (
-    < div className="bg-[#090218]">
+    < div className="bg-[rgb(9, 2, 18)]]">
         <Navbar />
         <Home />
     </div>
