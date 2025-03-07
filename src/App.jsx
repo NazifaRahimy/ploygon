@@ -1,12 +1,13 @@
 import Navbar from "./comm/NavBar"
 import Home from "./comm/Home"
-
+import Event from "./comm/Event"
 
 function App() {
   return (
-    < div className="bg-[rgb(9, 2, 18)]]">
+    < div className="bg-[#020618]">
         <Navbar />
         <Home />
+        <Event />
     </div>
   )
 }
