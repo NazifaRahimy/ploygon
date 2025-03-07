@@ -30,11 +30,11 @@ const Navbar = () => {
     ]
     return ( 
         <>
-        <div className="  w-full h-[90px] flex items-center  text-white justify-between bg-[rgb(9, 2, 18)]]  px-4 box-border fixed z-50 ">
+        <div className="  w-full h-[90px] flex items-center  text-white justify-between bg-[#020918]  px-4 box-border fixed z-50 ">
             <div>
                <img src="assets/lagos/longlago.PNG" alt="longlago"  className=' w-[160px] '  />
             </div>
-            <ul className={`flex flex-col w-[40%] items-start space-y-4 pb-2 md:w-[30%]  justify-center px-5 box-border absolute top-[90px] bg-[rgb(9, 2, 18)]] lg:space-x-9 lg:flex-row lg:top-7 lg:right-[35%] lg:items-center lg:space-y-0 ${nav ? 'right-0' : 'right-[-40%]'}`}>
+            <ul className={`flex flex-col w-[40%] items-start space-y-4 pb-2 md:w-[30%]  justify-center px-5 box-border absolute top-[90px] bg-[#020918] lg:space-x-9 lg:flex-row lg:top-7 lg:right-[35%] lg:items-center lg:space-y-0 ${nav ? 'right-0' : 'right-[-40%]'}`}>
                 {
                     links.map(({link,id}) =>{
                         return(
