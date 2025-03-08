@@ -3,7 +3,7 @@
 const Event = () => {
     return ( 
         <div name='event' className="bg-[#090218] w-full mb-8  relative">
-            <h1 className="text-white text-center text-5xl font-bold mt-[170px] ">Evnet details</h1>
+            <h1 className="text-white text-center text-5xl font-bold mt-[170px] uppercase">Evnet details</h1>
             <div className="w-full relative bg-[#090218] mt-20 justify-center items-center h-auto flex flex-col md:flex-row ">
                 <div className="w-[80%] border box-border mb-10  text-center border-purple-300 rounded-md  h-[200px] md:mr-6 md:ml-[45px] md:mb-0 ">
                     <img src='assets/lagos/calender.png' alt="calender" 
