@@ -4,6 +4,9 @@ import Event from "./comm/Event"
 import Speaker from "./comm/Speaker"
 import Sponsor from "./comm/Sponsor";
 import Organizer from "./comm/Organizer";
+import Contact from "./comm/Contact";
+
+
 function App() {
   return (
     < div className="bg-[#020618]">
@@ -13,6 +16,7 @@ function App() {
         <Speaker />
         <Sponsor />
         <Organizer />
+        <Contact />
     </div>
   )
 }
