@@ -31,7 +31,7 @@ const Navbar = () => {
     ]
     return ( 
         <>
-        <div className="  w-full h-[90px] flex items-center  text-white justify-between bg-[#020918]  px-4 box-border fixed z-50 ">
+        <div className="  w-[100%] h-[90px] flex items-center  text-white justify-between bg-[#020918]  px-4 box-border sticky top-0 z-50 ">
             <div>
                <img src="assets/lagos/longlago.PNG" alt="longlago"  className=' w-[160px] '  />
             </div>
